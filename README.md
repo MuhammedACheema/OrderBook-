@@ -1,20 +1,23 @@
 # OrderBook-
 Creating an order book simulation in order to simulate buying and selling orders, as well as tracking order history
 
+Guidelines:
+
+Step 1: Read Investopedia + Matching Engine blog to get the mechanics.
+
+Step 2: Implement Order and OrderBook in C++.
+
+Step 3: Start with limit orders only (no market orders).
+
+Step 4: Add cancel + trade log.
+
 Key Concepts
-
 Orders
-
 Buy (Bid): A trader wants to buy at or below a certain price.
-
 Sell (Ask): A trader wants to sell at or above a certain price.
-
 Market Order: Execute immediately at the best available price.
-
 Limit Order: Only execute if a certain price or better is available.
-
 Order Book Levels
-
 Orders are grouped by price.
 
 Example:
